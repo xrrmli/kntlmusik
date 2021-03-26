@@ -64,7 +64,7 @@ async def play(_, message: Message):
 
     if message.chat.id in callsmusic.active_chats:
         position = await queues.put(message.chat.id, file=file)
-        await res.edit_text(f"antrian ditambahkan,sans{position}!")
+        await res.edit_text(f"{#️⃣position} antrian ditambahkan sans!")
     else:
         await res.edit_text("gass gua mainkan ni...")
         await callsmusic.set_stream(message.chat.id, file)
