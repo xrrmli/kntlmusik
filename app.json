@@ -1,5 +1,5 @@
 {
-  "name": "CallsMusic",
+  "name": "kntlmusik",
   "description": "A group call streaming bot made using MarshalX/tgcalls with queue & multiple chats support.",
   "keywords": [
     "telegram",
@@ -9,7 +9,7 @@
     "pyrogram",
     "callsmusic"
   ],
-  "repository": "https://github.com/callsmusic/callsmusic",
+  "repository": "https://github.com/jamalkntl/kntlmusik",
   "env": {
     "SESSION_NAME": {
       "description": "A Pyrogram session string.",
