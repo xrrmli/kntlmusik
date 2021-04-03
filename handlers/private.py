@@ -19,7 +19,7 @@ perintah yang digunakan:
 /unmute - membalikan user kontol yg udh tobat
 /stop - membersihkan antrian dan menghapus anak kontol dari vcg
         """,
-        reply_markup=InlineKeyboardMarkup(            [
+        reply_markup=InlineKeyboardMarkup(
             [
                 [
                     InlineKeyboardButton(
