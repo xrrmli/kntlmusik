@@ -23,34 +23,10 @@ perintah yang digunakan:
             [
                 [
                     InlineKeyboardButton(
-                        "☠️ Tutorial", url="https://telegra.ph/%F0%9D%95%B4%F0%9D%96%91%F0%9D%96%92%F0%9D%96%97-04-03-2"
-                    )
-                ],
-                [
-                    InlineKeyboardButton(
-                        "💬 Grup", url="https://t.me/tongkrongannvirtual"
+                        "Group", url="https://t.me/tongkrongannvirtual"
                     ),
                     InlineKeyboardButton(
-                        "Channel 🔈", url="https://t.me/painnhubbb"
-                    )
-                ]
-            ]
-        )
-    )
-
-
-@Client.on_message(command("start") & other_filters)
-async def start2(_, message: Message):
-    await message.reply_text(
-        "💁🏻‍♂️ Apakah anda ingin mencari video youtube?",
-        reply_markup=InlineKeyboardMarkup(
-            [
-                [
-                    InlineKeyboardButton(
-                        "✅ Ya benar", switch_inline_query_current_chat=""
-                    ),
-                    InlineKeyboardButton(
-                        "Tidak ❌", callback_data="close"
+                        "Channel", url="https://t.me/painnhubbb"
                     )
                 ]
             ]
