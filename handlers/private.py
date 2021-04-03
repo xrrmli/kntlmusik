@@ -7,7 +7,7 @@ from helpers.filters import other_filters2
 @Client.on_message(other_filters2)
 async def start(_, message: Message):
     await message.reply_text(
-        f"""saya adalah @jamalkntll musik bot, saya membiarkan anda memutar musik dalam grup obrolan anda  .
+        f"""saya adalah ramli musik bot, saya membiarkan anda memutar musik dalam grup obrolan anda  .
 
 perintah yang digunakan:
 
@@ -15,9 +15,9 @@ perintah yang digunakan:
 /pause - menghentikan file audio
 /resume - melanjutkan file audio kembali
 /skip - melewati file audio
-/mute - membisukan user yang kaya ajg
-/unmute - membalikan user ajg yg udh tobat
-/stop - membersihkan antrian dan menghapus anak ajg dari vcg
+/mute - membisukan user yang kaya kontol
+/unmute - membalikan user kontol yg udh tobat
+/stop - membersihkan antrian dan menghapus anak kontol dari vcg
         """,
         reply_markup=InlineKeyboardMarkup(
             [
