@@ -23,10 +23,10 @@ perintah yang digunakan:
             [
                 [
                     InlineKeyboardButton(
-                        "Group", url="https://t.me/pemudapemuditersesatt"
+                        "Group", url="https://t.me/tongkrongannvirtual"
                     ),
                     InlineKeyboardButton(
-                        "Channel", url="https://t.me/subsajeudahh"
+                        "Channel", url="https://t.me/painnhubbb"
                     )
                 ]
             ]
